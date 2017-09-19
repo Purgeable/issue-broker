@@ -1,13 +1,6 @@
 # issue-broker
-Close github issues with payments to freelancers
+Close github issues with bounty payments to freelancers.
 
-
-Idea
-====
-
-post github issues with bounties for completion by freelancers
-
-bounty is a small fixed payment, for ease of use expressed in time and hourly rate
 
 Scenario
 ========
