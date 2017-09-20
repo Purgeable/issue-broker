@@ -4,10 +4,27 @@ People
 - Project owner (PO)
 - Freelancer (F)
 
-Forms
-=====
+Issue broker
+============
 
-- Issue broker (IB) is a collection of forms for user action + signals processor 
+Issue broker (IB) is a collection of forms for user action + views + signals processor.
+
+
+Forms:
+- project owner adds new repo and sets hourly rate
+- 
+
+View:
+- list all issues
+
+
+Signals:
+- listen to webhook for new issues
+- listen to webhook for new issues
+
+Services:
+- pay the freelancer on event (issue closed) 
+
 
 Context 
 ======
@@ -31,3 +48,9 @@ Scenario
 1. Project owner: closes issue
 1. Issue broker app: monitors webhook to see issue closed
 1. Issue broker app: makes payments from project owner to freelancer
+
+Scenarion discussion
+====================
+- set hourly rate per issue, not per project
+- reopening issue does not affect payment, can close only once
+- can hacker want to send a fake issue close to webhook to release a payment?
