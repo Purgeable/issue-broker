@@ -11,6 +11,7 @@ People:
 - project owner
 - freelancer
 
+Flow:
 1. Project owner: links project reposotory to issue brocker (with webhook)
 1. Project owner: sets max hourly rate for repository (eg USD 10/h)
 1. Issue broker app: starts monitoring new issues in repository (by webhook)
