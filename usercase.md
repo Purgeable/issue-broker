@@ -18,19 +18,19 @@ Context
 Scenario
 ========
 
-#. Project owner: links project reposotory to issue brocker (with webhook)
-#. Project owner: sets max hourly rate for repository (eg USD 10/h)
-#. Issue broker app: starts monitoring new issues in repository (by webhook)
+1. Project owner: links project reposotory to issue brocker (with webhook)
+1. Project owner: sets max hourly rate for repository (eg USD 10/h)
+1. Issue broker app: starts monitoring new issues in repository (by webhook)
    - when found tagged issue (with ```[ib: 1:30h]``` pattern in title), save it to local database
-#. Issue broker app: lists all tagged issues on main its page 
+1. Issue broker app: lists all tagged issues on main its page 
    - this view should read as ```repo name - issue title - hours - rate - status: open | closed | taken```
-#. Freelancer: applies at issue brocker to do an open issue  
-#. Project owner: selects freelancer
-#. Freelancer: makes commits and issue comments at github
-#. Project owner: makes issue comments at github
-#. Project owner: closes issue
-#. Issue broker app: monitors webhook to see issue closed
-#. Issue broker app: makes payments from project owner to freelancer
+1. Freelancer: applies at issue brocker to do an open issue  
+1. Project owner: selects freelancer
+1. Freelancer: makes commits and issue comments at github
+1. Project owner: makes issue comments at github
+1. Project owner: closes issue
+1. Issue broker app: monitors webhook to see issue closed
+1. Issue broker app: makes payments from project owner to freelancer
 
 
 Simplifications 
