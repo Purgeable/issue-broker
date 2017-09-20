@@ -38,7 +38,7 @@ Scenarion discussion
 
 #### Simplification:
 - no notifications
-- frellancers not differentaited, no freelancer profiles 
+- freelancers not differentaited, no freelancer profiles 
 
 Issue broker - components
 =========================
@@ -50,11 +50,11 @@ Forms/controls:
 
 View:
 - list all issues
-- list applicatnt to issue
+- list applicants to issue
 
 Signals:
 - listen to webhook for new issues
-- listen to webhook for new issues
+- listen to webhook for issue close
 
 Services:
 - pay the freelancer on event (issue closed) 
