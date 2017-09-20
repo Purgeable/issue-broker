@@ -31,6 +31,7 @@ Scenarion discussion
 
 #### Option:
 - set hourly rate per issue, not per project
+- show app stats (number of issues and amounts in open/in progress/closed issues)
 
 #### Risks:
 - reopening issue does not affect payment, can close only once
@@ -51,7 +52,7 @@ Forms/controls:
 Views:
 - list all open issues
 - list applicants to issue
-- show app stats (number of issues and amounts in open/in progress/closed issues)
+
 
 Signals:
 - listen to webhook for new issues
