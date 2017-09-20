@@ -31,9 +31,3 @@ Scenario
 1. Project owner: closes issue
 1. Issue broker app: monitors webhook to see issue closed
 1. Issue broker app: makes payments from project owner to freelancer
-
-
-Simplifications 
-===============
-- no internal chat 
-- no freelancer pages
