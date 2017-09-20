@@ -48,13 +48,14 @@ Forms/controls:
 - freelancer applies to issue
 - project owner selects freelancer to work on issue
 
-View:
-- list all issues
+Views:
+- list all open issues
 - list applicants to issue
+- show app stats (number of issues and amounts in open/in progress/closed issues)
 
 Signals:
 - listen to webhook for new issues
-- listen to webhook for issue close
+- listen to webhook for issue closed
 
 Services:
-- pay the freelancer on event (issue closed) 
+- pay the freelancer on event when issue closed
